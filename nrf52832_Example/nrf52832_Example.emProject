@@ -121,6 +121,8 @@
       <file file_name="nrf_atomic.c" />
       <file file_name="nrf_atomic.h" />
       <file file_name="nrf_atomic_internal.h" />
+      <file file_name="nrf_log_default_backends.c" />
+      <file file_name="nrf_log_default_backends.h" />
     </folder>
     <folder Name="System Files">
       <file file_name="thumb_crt0.s" />

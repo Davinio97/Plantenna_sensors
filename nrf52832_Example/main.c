@@ -32,6 +32,7 @@ SOFTWARE.
 #include <stdio.h>
 #include "boards.h"
 #include "app_error.h"
+#include "app_util_platform.h"
 #include "nrf_drv_twi.h"
 #include "nrf_delay.h"
 #include "bme280_twi.h"
@@ -41,6 +42,7 @@ SOFTWARE.
 #define NRF_LOG_MODULE_NAME APP
 #include "nrf_log.h"
 #include "nrf_log_ctrl.h"
+#include "nrf_log_default_backends.h"
 
 static volatile bool m_measurement_fetched;
 static const nrf_drv_twi_t m_twi = NRF_DRV_TWI_INSTANCE(0);
